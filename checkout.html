@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Checkout | Pet Paradise</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="logo">🐾 Pet Paradise</div><nav><a href="index.html">Home</a><a href="cart.html">Cart</a><a href="billing.html">Billing</a></nav></header>
+<section class="panel">
+  <h1>📦 Checkout</h1>
+  <p>Enter your details to place your demo order.</p>
+  <form id="checkout-form">
+    <label for="customer-name">Full Name</label>
+    <input id="customer-name" type="text" placeholder="Enter your full name" required maxlength="80">
+    <label for="customer-phone">Phone Number</label>
+    <input id="customer-phone" type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" title="Enter a 10-digit phone number" required>
+    <label for="customer-address">Delivery Address</label>
+    <textarea id="customer-address" rows="4" placeholder="Enter your full address" required maxlength="300"></textarea>
+    <button type="submit" class="btn">Place Order</button>
+    <a href="cart.html" class="btn orange">Back to Cart</a>
+  </form>
+  <p class="notice">Student demo only. This form does not process real payments or send orders to a shop.</p>
+</section>
+<footer><p>© 2026 Pet Paradise</p></footer><script src="script.js"></script>
+</body></html>
